@@ -9,7 +9,7 @@
   
   >
   <head>
-<title>MyFirstArticles | My New Hugo Site</title>
+<title>MySecondArticles | My New Hugo Site</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,21 +21,21 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="#这是我的第一篇博客内容" />
+<meta name="description" content="#我在创建博客时遇到的问题与解决 1.问题：在命令行里面输入hugo server运行博客程序后得到localhost:1313地址在本地浏览器中输入该博客地址无法得到博客，出现Page Not Found 解决：下发的主题目录文件叫做hugothemeclaritymaster里面有一个名为_MACOSX …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="MyFirstArticles" />
+<meta name="twitter:title" content="MySecondArticles" />
 <meta name="twitter:image" content=""/>
-<meta property="og:url" content="/posts/myfirstarticles/" />
-<meta property="og:title" content="MyFirstArticles" />
-<meta property="og:description" content="#这是我的第一篇博客内容" />
+<meta property="og:url" content="/posts/mysecondarticles/" />
+<meta property="og:title" content="MySecondArticles" />
+<meta property="og:description" content="#我在创建博客时遇到的问题与解决 1.问题：在命令行里面输入hugo server运行博客程序后得到localhost:1313地址在本地浏览器中输入该博客地址无法得到博客，出现Page Not Found 解决：下发的主题目录文件叫做hugothemeclaritymaster里面有一个名为_MACOSX …" />
 <meta property="og:image" content="" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
 <link rel="manifest" href="icons/site.webmanifest">
 
-<link rel="canonical" href="/posts/myfirstarticles/">
+<link rel="canonical" href="/posts/mysecondarticles/">
 
 
 
@@ -94,7 +94,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">MyFirstArticles</h1>
+    <h1 class="post_title">MySecondArticles</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -107,14 +107,14 @@
     <span class="page_only">&nbsp;·
   <div class="post_share">
     Share on:
-    <a href="https://twitter.com/intent/tweet?text=MyFirstArticles&url=%2fposts%2fmyfirstarticles%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
+    <a href="https://twitter.com/intent/tweet?text=MySecondArticles&url=%2fposts%2fmysecondarticles%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
       <svg class="icon">
   <title>twitter</title>
   <use xlink:href="#twitter"></use>
 </svg>
 
     </a>
-    <a href="https://www.facebook.com/sharer.php?u=%2fposts%2fmyfirstarticles%2f&t=MyFirstArticles" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
+    <a href="https://www.facebook.com/sharer.php?u=%2fposts%2fmysecondarticles%2f&t=MySecondArticles" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
       <svg class="icon">
   <title>facebook</title>
   <use xlink:href="#facebook"></use>
@@ -128,7 +128,7 @@
 </svg>
 
     </a>
-    <a href="/posts/myfirstarticles/" title="Copy Link" class="link link_yank">
+    <a href="/posts/mysecondarticles/" title="Copy Link" class="link link_yank">
       <svg class="icon">
   <title>copy</title>
   <use xlink:href="#copy"></use>
@@ -139,7 +139,13 @@
   </span>
   </div>
 
-    <div class="post_body"><p>#这是我的第一篇博客内容</p>
+    <div class="post_body"><p>#我在创建博客时遇到的问题与解决
+1.问题：在命令行里面输入hugo server运行博客程序后得到localhost:1313地址在本地浏览器中输入该博客地址无法得到博客，出现Page Not Found
+解决：下发的主题目录文件叫做hugothemeclaritymaster里面有一个名为_MACOSX和hugo-theme-clarity-master的文件。需要把hugo-theme-clarity-master文件拷贝到hugo目录里面的themes目录里，而错误处是把hugothemeclaritymaster整个拷贝到了themes目录里。在博客的配置文件hugo.toml里输入主题名称theme = &lsquo;hugo-theme-clarity-master&rsquo;然后在命令行里面输入hugo server运行博客程序后得到地址localhost:1313成功在本地浏览器中得到博客。
+2.问题：在创建的博客的静态页面public文件里在命令行输入git init初始化Git仓库后没有本该有的.git文件
+解决：通过寻求导师的帮助首先排除是没有安装Git的问题，那么应该是.git文件被隐藏了，显示出隐藏的.git文件即可继续操作。
+3.问题：用github中设置好的仓库名访问博客出现错误显示未找到GitHub Pages网站
+解决：在桌面Github中添加仓库后上传时需要输入仓库名为:Github用户名+.github.io在这里出现了错误，Github用户名输错没有大写，点开错误的仓库在Settings里修改仓库名即可。</p>
 
     </div>
 <div class="post_comments">
